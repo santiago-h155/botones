@@ -8,7 +8,7 @@ $(function() {
 	const MAIN_IMAGE_URL = encodeURIComponent($('meta[property="og:image"]').attr('content'));
 
 	$('.share-fb').click(function(){
-		open_window('http://www.facebook.com/sharer/sharer.php?u='+ARTICLE_URL+'&media='+MAIN_IMAGE_URL+'&description='+ARTICLE_TITLE, 'facebook_share');
+		open_window('http://www.facebook.com/sharer/sharer.php?u='+ARTICLE_URL+'&media='+MAIN_IMAGE_URL, 'facebook_share');
 	});
 
 	$('.share-twitter').click(function(){
